@@ -1,0 +1,54 @@
+.chevron {
+  font-size: 45;
+  width: 40;
+}
+
+.chevron:hover {
+  font-size: 50;
+}
+
+.fade {
+  -webkit-animation: fadein 11s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 11s; /* Firefox < 16 */
+  -ms-animation: fadein 11s; /* Internet Explorer */
+  -o-animation: fadein 11s; /* Opera < 12.1 */
+  animation: fadein 11s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
